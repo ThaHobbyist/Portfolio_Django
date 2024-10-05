@@ -101,7 +101,7 @@ class Portfolio(models.Model):
     def get_absolute_url(self):
         return f'/portfolio/{self.slug}'
     
-class Blog(model.Model):
+class Blog(models.Model):
     class Meta:
         verbose_name = 'Blog'
         verbose_name_plural = 'Blogs'
