@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -32,7 +33,7 @@
         <div class="container-fluid">
           <div class="row align-items-center">
             <div class="col-auto">
-              <div class="logoCol"><a href="index.html"><img src="images/logo.png" alt="..."></a></div>
+              <div class="logoCol"><a href="index.html"><img src="{% static 'images/logo.png' %}" alt="..."></a></div>
             </div>
             <div class="col">
               <div class="d-md-none">
@@ -83,32 +84,32 @@
             <div class="row g-3 g-md-4 g-lg-5 portfolioRow">
               <div class="col-md-6 pColMain">
                 <div class="pCol">
-                  <img src="images/project-img.jpg" alt="..." class="pImg">
+                  <img src="{% static 'images/project-img.jpg' %}" alt="..." class="pImg">
                 </div>
               </div>
               <div class="col-md-6 pColMain">
                 <div class="pCol">
-                  <img src="images/project-img.jpg" alt="..." class="pImg">
+                  <img src="{% static 'images/project-img.jpg' %}" alt="..." class="pImg">
                 </div>
               </div>
               <div class="col-md-6 pColMain">
                 <div class="pCol">
-                  <img src="images/project-img.jpg" alt="..." class="pImg">
+                  <img src="{% static 'images/project-img.jpg' %}" alt="..." class="pImg">
                 </div>
               </div>
               <div class="col-md-6 pColMain">
                 <div class="pCol">
-                  <img src="images/project-img.jpg" alt="..." class="pImg">
+                  <img src="{% static 'images/project-img.jpg' %}" alt="..." class="pImg">
                 </div>
               </div>
               <div class="col-md-6 pColMain">
                 <div class="pCol">
-                  <img src="images/project-img.jpg" alt="..." class="pImg">
+                  <img src="{% static 'images/project-img.jpg' %}" alt="..." class="pImg">
                 </div>
               </div>
               <div class="col-md-6 pColMain">
                 <div class="pCol">
-                  <img src="images/project-img.jpg" alt="..." class="pImg">
+                  <img src="{% static 'images/project-img.jpg' %}" alt="..." class="pImg">
                 </div>
               </div>
             </div>
@@ -127,10 +128,10 @@
       <div class="footerCol">
         <div class="container">
           <ul class="socialCol">
-            <li><a href="javascript:void(0)"><img src="images/fb.svg" alt="..."></a></li>
-            <li><a href="javascript:void(0)"><img src="images/insta.svg" alt="..."></a></li>
-            <li><a href="javascript:void(0)"><img src="images/twitter.svg" alt="..."></a></li>
-            <li><a href="javascript:void(0)"><img src="images/linkedin.svg" alt="..."></a></li>
+            <li><a href="javascript:void(0)"><img src="{% static 'images/fb.svg' %}" alt="..."></a></li>
+            <li><a href="javascript:void(0)"><img src="{% static 'images/insta.svg' %}" alt="..."></a></li>
+            <li><a href="javascript:void(0)"><img src="{% static 'images/twitter.svg' %}" alt="..."></a></li>
+            <li><a href="javascript:void(0)"><img src="{% static 'images/linkedin.svg' %}" alt="..."></a></li>
           </ul>
           <div class="copyrightCol">
             <p>Copyright ©2021 All rights reserved. Designed by <a href="https://jamesgrangerdesign.co.uk/" target="_blank">James Granger Design</a></p>
